@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #161616;
+}
+
+.all{
+    display: flex;
+    justify-content: center;    
+}
+.wizard_oz{
+    background-color: #00253a;        
+    display: flex;
+    justify-content: center;        
+    width: 880px;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+}
+.top{
+    align-items: flex-end;    
+    height: 150px;
+    color: #FFF;
+}
+.name_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.name_desc h1,
+.name_desc h3{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    color: #FFF;
+}
+.image img{
+    border: 3px solid #000;
+}
+.image h3{
+    justify-content: center;
+    align-items: flex-end;
+}
+.image h5{    
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;    
+}
+
+.title_films{    
+    display: flex;
+    align-self: center;    
+}
+.title_films h2{
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+.film_cont{    
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    border-top: 3px solid #000;
+    background-color: #163f51;
+    color: #FFF;
+}
+.all_films{    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 990px;    
+}
+.film_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+.film_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+.img_films{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_films img{
+    border: 2px solid #FFF;
+}
+.img_films h5{
+    padding: 0;
+    padding-top: 3px;
+    margin: 0;
+}
+
+.tl_cont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    border-top: 3px solid #000;    
+    background-color: #296484;
+}
+.title_timeline{    
+    display: flex;
+    align-self: center;    
+    color: #FFF;
+}
+.title_timeline h2{
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.time_line{
+    display: flex;
+    margin-top: 15px;
+    color: #000;
+}
+.tl_left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;        
+}
+.left{
+    padding: 10px;
+    background-color: #fc9627;
+    margin-bottom: 40px;    
+}
+.tl_tl_left{
+    display: flex;            
+    justify-content: flex-end;    
+}
+.tl_ano_left{    
+    display: flex;        
+    font-weight: bold;
+}
+.tl_opc_left{
+    display: flex;    
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 5px;    
+}
+.tl_desc_left{   
+    font-size: 13px;    
+    padding: 0;
+    margin: 0;
+    padding-left: 18px;
+}
+.tl_style_left{
+    width: 3px;
+    height: 40px;
+    margin-left: 10px;    
+    background-color: #FFF;
+}
+
+
+.tl_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;        
+    background-color: #FFF;   
+}
+.right{
+    padding: 10px;    
+    padding-top: 35px;     
+}
+.tl_tl_right{
+    display: flex;            
+    justify-content: flex-start;    
+}
+.tl_ano_right{    
+    display: flex;    
+    font-weight: bold;    
+}
+.tl_opc_right{
+    display: flex;    
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 5px;    
+}
+.tl_desc_right{   
+    font-size: 13px;    
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+.tl_style_right{
+    width: 3px;
+    height: 40px;
+    background-color: #000;
+}
+
+.footer{
+    background-color: #252722;
+    border-top: 3px solid #000;
+    color: #FFF;
+}
+.footer_padding{    
+    padding: 10px;
+}
+.footer h3,
+.footer h5{
+    padding: 0;        
+    margin: 0;
+}
+.footer h3{
+    padding-left: 17px;
+}
+.style{
+    width: 4px;
+}
